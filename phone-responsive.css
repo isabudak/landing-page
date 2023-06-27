@@ -1,0 +1,123 @@
+@media(max-width:500px){
+    /*Home page*/
+    #img{
+        width: 200px;
+        height: 200px;
+    }
+    .home-left-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-left-container #head-one{
+        color: #fff;
+        font-size: 25px;
+    }
+    .home-left-container #head-two{
+        color: #fff;
+        font-size: 15px;
+    }
+    .home-left-container button{
+        width: 10rem;
+        font-size: 18px;
+    }
+    .home-left-container button:hover{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    /* Second Page */
+
+    #page-two-head-one{font-size: 20px;}
+    #page-two-head-two{font-size: 15px;}
+    #page-two-content-one{font-size: 10px; margin-bottom: -10px;}
+    #page-two-content-two{margin-bottom:10px ;font-size: 10px;}
+    #second-button{width: 8rem; height:50px;}
+    #second-button a{padding-top:20px ;}
+
+    /* Third (Silver) Page */
+
+    .mb-3{
+        width: 150px;
+        font-size: 15px;
+    }
+   
+    .mb-3 .card-body{
+        height: 135px;
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .mb-3 .card-body .card-text{
+        margin-top: -30px; ;
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+    /*Guarantee Page*/
+    .guarantee-text{
+        font-size: 11px;
+    }
+     #guarantee-green{
+        font-size: 13px;
+        margin-bottom: 26px;
+        font-weight: 400;
+    }
+
+    /*Five Page*/
+    
+    
+     #step{
+        width: 100px;
+        height: 50px;
+        font-size: 9px;
+        text-align: center;
+    }
+    #step #card-head{
+        font-size: 25px;
+    }
+    /*Questions Page*/
+
+    .questions .questions-container #questions-text p{
+        font-size: 11px;
+    }
+
+    /*Purple Page*/
+    #purple-page .purple-text p{
+        font-size: 11px;
+    }
+    #purple-page .purple-container .purple-page-head h1{
+        font-size: 30px;
+    }
+
+    /* Footer */
+    footer .footer-container .info-footer-one h5{
+        font-size: 10px;
+    }
+    footer .footer-container .info-footer-one a{
+        font-size: 10px;
+        text-decoration: none;
+    }
+    footer .footer-container .info-footer-two h5{
+        font-size: 10px;
+    }
+    footer .footer-container .info-footer-two a{
+        font-size: 10px;
+        text-decoration: none;
+    }
+    footer .footer-container .info-footer-three h5{
+        font-size: 6px;
+    }
+    footer .footer-container .info-footer-three a{
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    footer .footer-container .footer-icons a{
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+
+}
